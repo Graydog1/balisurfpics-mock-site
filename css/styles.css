@@ -1,0 +1,211 @@
+/* font-family: 'Roboto Serif', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Cinzel', serif;*/
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    color: #D29D2B;
+    font-family: 'Cinzel', serif;
+}
+
+/* navigation bar */
+.navbar {
+  background-color: #203239;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-item {
+  font-size: 1rem;
+  padding-right: 3rem;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 1.5rem;
+  padding: 0 1%;
+}
+
+/* title section */
+.header {
+  background-image: url(title-image.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 700px;
+
+}
+
+.main-heading {
+  font-size: 6rem;
+  padding-bottom: 1%;
+}
+
+.title-phrase {
+  color: #203239;
+  font-size: 1.4rem;
+}
+
+.pp-main-pic {
+  margin: 0;
+  width: 100%;
+}
+
+/* features section */
+#features {
+  background-color: #fff;
+  color: #203239;
+  font-family: 'Inter', sans-serif;
+  padding: 3% 12%;
+  text-align: center;
+}
+
+.ft-icons {
+  padding: 3rem;
+}
+
+.icons {
+  color: #D29D2B;
+  font-family: 'Cinzel', serif;
+}
+
+/* carousel slide show */
+
+#slideshow {
+  background-color: #203239;
+  height: 20rem;
+}
+
+.slide {
+  width: 75%;
+  margin: 1% auto 1% 12%;
+}
+
+.move-client {
+  color:  #D29D2B;
+  padding-left: 8rem;
+}
+
+/* about us section */
+
+#about-section {
+  background-color: #fff;
+  color: #203239;
+  font-family: 'Inter', sans-serif;
+  padding: 25% 12% 5%;
+  text-align: center;
+  overflow: auto;
+}
+
+.about-us-heading {
+  font-family: 'Cinzel', serif;
+  padding-bottom: 5%;
+}
+
+.about-us {
+  float: left;
+  line-height: 2;
+  padding-right: 1.5rem;
+  text-align: left;
+  width: 50%;
+}
+
+.about {
+  float: right;
+  line-height: 2;
+  padding-left: 1.5rem;
+  text-align: left;
+  width: 50%;
+}
+
+.about-us-img-one {
+  border-radius: 100%;
+  margin: auto auto 3rem auto;
+  width: 90%;
+}
+
+.about-us-img-two {
+  border-radius: 100%;
+  margin: 2rem auto auto auto;
+  width: 90%;
+}
+
+/* pricing section */
+
+#pricing {
+  background-color: #203239;
+  color: #D29D2B;
+  padding: 4% 3%;
+  text-align: center;
+}
+
+.card-body {
+  background-color: #203239;
+}
+
+/* contact and footer section */
+
+#cta {
+  background-color: #fff;
+  color: #203239;
+  font-family: 'Cinzel', serif;
+  padding: 4% 15%;
+  text-align: center;
+}
+
+.contact-us-btn {
+  margin-top: 3%;
+}
+
+#footer {
+    background-color: #203239;
+    color: #fff;
+    padding: 4%;
+    text-align: center;
+}
+
+.footer-icons {
+  padding: 0 1% 2%;
+}
+
+/* media queries */
+
+@media (max-width: 1000px) {
+  .main-heading {
+    font-size: 4rem;
+    padding-bottom: 0:
+  }
+  .header {
+    left: 20%;
+  }
+.navbar-dark .navbar-brand {
+  padding-bottom: 3rem;
+  opacity: 0;
+}
+.slide {
+  width: 100%;
+  margin: 0;
+}
+p {
+  font-size: 1.2rem;
+}
+}
+.about {
+  line-height: 1.7;
+}
+.about-us {
+  line-height: 1.7;
+}
+  }
+
+/* blackbush slideshow */
+.to-home {
+  float: right;
+  position: relative;
+  top: 0.8rem;
+  right: 4rem;
+}
+
+.bb-slideshow {
+  text-align: center;
+}

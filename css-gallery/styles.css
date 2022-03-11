@@ -1,0 +1,55 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  color: #D29D2B;
+  font-family: 'Cinzel', serif;
+  font-size: 3rem;
+}
+
+#gallery-header {
+    background-color: #fff;
+    text-align: center;
+}
+
+.header {
+  padding-top: 3%;
+}
+
+.to-home {
+  float: right;
+  position: relative;
+  top: 2rem;
+  right: 4rem;
+}
+
+.card {
+  margin: 3%;
+  padding: 1%;
+}
+
+.card-title {
+  color: #203239;
+  font-size: 1.5rem;
+}
+
+.small-pic {
+  height: 15.5rem;
+}
+/* footer section */
+
+.contact-us-btn {
+  margin-top: 3%;
+}
+
+#footer {
+    background-color: #203239;
+    color: #fff;
+    padding: 4%;
+    text-align: center;
+}
+
+.footer-icons {
+  padding: 0 1% 2%;
+}
